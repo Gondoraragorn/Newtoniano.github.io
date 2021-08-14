@@ -21,12 +21,6 @@
         <div class="navbar-nav">
             <a class="nav-item navbar-brand" id="home" href="/" style="padding-left: 10px;"><img src="./assets/main.png"></a>
             <a class="nav-item navbar-brand" id="home" href="/About">About</a>
-            <a class="nav-item navbar-brand" id="home" href="/hand">Hand</a>
-        </div>
-        <div class="navbar-nav ms-auto">
-            <a class="nav-item navbar-brand" id="logout" href="/logout">Logout</a>
-            <a class="nav-item navbar-brand" id="login" href="/login">Login</a>
-            <a class="nav-item navbar-brand" id="signUp" href="/sign-up">Sign up</a>
         </div>
         </div>
         </nav>
