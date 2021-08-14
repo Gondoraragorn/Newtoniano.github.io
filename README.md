@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-<title>Shaking Hands Overseas</title>
 <style>
     
 .navbar-custom {
@@ -19,7 +18,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar">
         <div class="navbar-nav">
-            <a class="nav-item navbar-brand" id="home" href="/" style="padding-left: 10px;"><img src="./assets/main.png"></a>
+            <a class="nav-item navbar-brand" id="home" href="/" style="padding-left: 10px;"><img src="Home"></a>
             <a class="nav-item navbar-brand" id="home" href="/About">About</a>
         </div>
         </div>
