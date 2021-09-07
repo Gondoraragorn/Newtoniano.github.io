@@ -9,6 +9,7 @@ import { SHOComponent } from './sho/sho.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     SHOComponent,
     ProjectsComponent,
     SocialMediaComponent,
-    NavbarComponent
+    NavbarComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
