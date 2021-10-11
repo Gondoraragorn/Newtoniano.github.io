@@ -28,7 +28,7 @@ footer{
     background-color:  #C0C0C0;
 }
     #footer {
-        position: fixed;
+        position: absolute;
         padding: 0px 10px 0px 10px;
         bottom: 0;
         width: 100%;
