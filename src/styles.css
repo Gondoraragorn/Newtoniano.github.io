@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.page{
+  background-image: url('https://pbs.twimg.com/media/E-bcBuyWYAAzfKE?format=jpg&name=4096x4096');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 a.button6{
     display:inline-block;
     padding:0.7em 1.4em;
@@ -93,7 +99,7 @@ box-sizing: border-box;
 }
 :root {
     --bg: transparent;     
-    --color-icon: #535c68;  
+    --color-icon: #000000;  
     --social-icon1: #e4405f;
     --social-icon2: #3b5999;
     --social-icon3: #e4405f;
