@@ -31,7 +31,9 @@ a.button6{
     }
     }
 footer{
-    background-color:  #C0C0C0;
+  background-image: url('https://pbs.twimg.com/media/E-bcBuyWYAAzfKE?format=jpg&name=4096x4096');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
     #footer {
         position: absolute;
