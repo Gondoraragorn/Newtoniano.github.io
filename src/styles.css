@@ -2,7 +2,7 @@
 .page{
   background-image: url('https://pbs.twimg.com/media/E-bcBuyWYAAzfKE?format=jpg&name=4096x4096');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover ;
 }
 
 a.button6{
@@ -30,20 +30,20 @@ a.button6{
         display: block;
     }
     }
-footer{
-  background-image: url('https://pbs.twimg.com/media/E-bcBuyWYAAzfKE?format=jpg&name=4096x4096');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-    #footer {
-        position: absolute;
-        padding: 0px 10px 0px 10px;
-        bottom: 0;
-        width: 100%;
-        /* Height of the footer*/ 
-        height: 150px;
-        background: transparent;
-    }
+  footer{
+    background-image: url('https://pbs.twimg.com/media/E-bcBuyWYAAzfKE?format=jpg&name=4096x4096');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+      #footer {
+          position: relative;
+          padding: 0px 10px 0px 10px;
+          bottom: 0;
+          width: 100%;
+          /* Height of the footer*/ 
+          padding-top: 10vw;
+          background: transparent;
+      }
 .subtitle{
     text-align: center;
     color: black;
