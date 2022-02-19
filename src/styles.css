@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 .page{
-  background-image: url('https://pbs.twimg.com/media/E-bcBuyWYAAzfKE?format=jpg&name=4096x4096');
+  /* background-image: url('https://pbs.twimg.com/media/E-bcBuyWYAAzfKE?format=jpg&name=4096x4096'); */
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover ;
 }
@@ -35,6 +36,7 @@ a.button6{
     background-repeat: no-repeat;
     background-size: cover;
   }
+  @media (max-width: 800px){
       #footer {
           position: relative;
           padding: 0px 10px 0px 10px;
@@ -44,9 +46,20 @@ a.button6{
           padding-top: 10vw;
           background: transparent;
       }
+  }
+  @media (min-width: 801px){
+    #footer {
+        position: absolute;
+        padding: 0px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        /* Height of the footer*/ 
+        padding-top: 10vw;
+        background: transparent;
+    }
+}
 .subtitle{
     text-align: center;
-    color: black;
 }
 * {
 -webkit-box-sizing: border-box;

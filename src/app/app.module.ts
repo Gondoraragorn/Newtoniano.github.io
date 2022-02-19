@@ -10,6 +10,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { CodingComponent } from './coding/coding.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     ProjectsComponent,
     SocialMediaComponent,
     NavbarComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    CodingComponent
   ],
   imports: [
     BrowserModule,
