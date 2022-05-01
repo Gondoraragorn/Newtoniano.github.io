@@ -36,7 +36,7 @@ a.button6{
     background-repeat: no-repeat;
     background-size: cover;
   }
-  @media (max-width: 800px){
+  @media (max-width: 1300px){
       #footer {
           position: relative;
           padding: 0px 10px 0px 10px;
@@ -47,7 +47,7 @@ a.button6{
           background: transparent;
       }
   }
-  @media (min-width: 801px){
+  @media (min-width: 1301px){
     #footer {
         position: absolute;
         padding: 0px 10px 0px 10px;

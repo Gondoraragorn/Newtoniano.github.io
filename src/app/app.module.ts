@@ -11,6 +11,7 @@ import { SocialMediaComponent } from './social-media/social-media.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { CodingComponent } from './coding/coding.component';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CodingComponent } from './coding/coding.component';
     SocialMediaComponent,
     NavbarComponent,
     NotfoundComponent,
-    CodingComponent
+    CodingComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
