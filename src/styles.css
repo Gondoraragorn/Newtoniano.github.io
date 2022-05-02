@@ -6,6 +6,10 @@
   background-size: cover ;
 }
 
+.subtitle{
+  text-align: center;
+}
+
 a.button6{
     display:inline-block;
     padding:0.7em 1.4em;
@@ -58,14 +62,12 @@ a.button6{
         background: transparent;
     }
 }
-.subtitle{
-    text-align: center;
-}
 * {
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
 }
+
 .buttons {
 margin-top: 40px;
 text-align: center;
@@ -117,9 +119,8 @@ box-sizing: border-box;
     --color-icon: #000000;  
     --social-icon1: #e4405f;
     --social-icon2: #3b5999;
-    --social-icon3: #e4405f;
+    --social-icon3: #0081fa;
     --social-icon4: #cd201f;
-    --social-icon5: #0077B5;  
   }
 
   section {
