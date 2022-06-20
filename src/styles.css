@@ -40,7 +40,7 @@ a.button6{
     background-repeat: no-repeat;
     background-size: cover;
   }
-  @media (max-width: 1300px){
+  @media (max-height: 800px){
       #footer {
           position: relative;
           padding: 0px 10px 0px 10px;
@@ -51,7 +51,7 @@ a.button6{
           background: transparent;
       }
   }
-  @media (min-width: 1301px){
+  @media (min-height: 801px){
     #footer {
         position: absolute;
         padding: 0px 10px 0px 10px;
