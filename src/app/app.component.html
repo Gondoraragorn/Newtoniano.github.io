@@ -1,9 +1,18 @@
-<body class="page">
-<nav>
-<app-navbar></app-navbar>
-</nav>
+<title>Joel Garcia</title>
+<div class="subpage">
+    <div class="col-md-12" style="text-align: left;">
+  <a routerLink="/" class="link">
+    Joel Garcia
+  </a>
+  </div>
+    <div class="col-md-12" style="text-align: right; margin-top: -60px;">
+    <app-social-media></app-social-media>
+    </div>
+  <div class="col-md-12" style="text-align: left; margin-top: -150px;">
+  <router-outlet></router-outlet>
+  </div>
+</div>
+<footer class="subpage" style="font-size: 15px; position: absolute; bottom: 0;">
+  Website is a Work in Progress
+</footer>
 
-<router-outlet></router-outlet>
-
-<app-social-media></app-social-media>
-</body>
