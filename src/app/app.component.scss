@@ -1,0 +1,12 @@
+.link{
+    margin-top: 40px;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+}
+.link:hover{
+    opacity: 0.4;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
