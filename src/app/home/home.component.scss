@@ -1,5 +1,5 @@
 .link{
-    margin-top: 40px;
+    margin-top: 50px;
     transition: 0.3s;
     color: rgb(255, 255, 255);
 }
@@ -10,3 +10,14 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
+@media only screen and (min-width: 1151px) {
+    .size {
+      color: transparent;
+    }
+  }
+  @media only screen and (max-width: 1150px) {
+    .size{
+      margin: 20px;
+      color: transparent;
+    }
+  }

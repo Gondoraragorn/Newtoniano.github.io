@@ -15,7 +15,7 @@
     color: white;
   }
 .subpage {
-  margin: 40px;
+  margin: 40px 10px 40px 40px;
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover ;
@@ -27,13 +27,6 @@
   font-weight: 700; 
   line-height: 26.4px; 
 }
-
-    @media (max-height: 800px){
-        
-    }
-    @media (min-height: 801px){
-      
-  }
 
   :root {
       --bg: transparent;     
