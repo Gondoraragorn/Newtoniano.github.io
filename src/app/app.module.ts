@@ -7,6 +7,7 @@ import { SocialMediaComponent } from './social-media/social-media.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
+import { WorkingOnComponent } from './working-on/working-on.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContactComponent } from './contact/contact.component';
     SocialMediaComponent,
     HomeComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    WorkingOnComponent
   ],
   imports: [
     BrowserModule,

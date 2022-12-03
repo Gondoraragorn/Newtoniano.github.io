@@ -35,6 +35,7 @@
       --social-icon2: #3b5999;
       --social-icon3: #0081fa;
       --social-icon4: #cd201f;
+      --social-icon5: #0066ff;
     }
     
     .icon-list {
@@ -108,4 +109,7 @@
     
     .icon-item:nth-child(5) a:hover:before { 
       background: var(--social-icon5); 
+    }
+    .icon-item:nth-child(6) a:hover:before { 
+      background: var(--social-icon6); 
     }
