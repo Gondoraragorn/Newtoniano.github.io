@@ -5,12 +5,14 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { WorkingOnComponent } from './working-on/working-on.component';
 import { UpdatesComponent } from './updates/updates.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'projects', component: ProjectsComponent},
   {path: 'working-on', component: WorkingOnComponent},
   {path: 'blog', component: UpdatesComponent},
+  {path: 'timeline', component: TimelineComponent},
   {path: 'contact', component: ContactComponent}
 ];
 
