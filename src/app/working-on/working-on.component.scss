@@ -1,0 +1,28 @@
+th
+{
+    border: none;
+    border: 25px solid transparent;
+    padding: 5px;
+}
+
+td
+{
+    border: none;
+    border: 25px solid transparent;
+    transition: 0.3s;
+    padding: 5px;
+}
+td:hover
+{
+    opacity: 0.4;
+    text-decoration: none;
+    color: inherit;
+}
+.linked{
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
