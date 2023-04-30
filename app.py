@@ -19,7 +19,10 @@ def contact():
 @app.route("/blog.html")
 def updates():
     return render_template("updates.html")
-
-
+    
+@app.route("/timeline.html")
+def timeline():
+    return render_template("timeline.html")
+    
 if __name__ == "__main__":
     app.run(debug=True)
