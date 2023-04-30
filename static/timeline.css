@@ -1,3 +1,27 @@
+.link{
+  margin-top: 50px;
+  transition: 0.3s;
+  color: rgb(255, 255, 255);
+}
+.link:hover{
+  opacity: 0.4;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+@media only screen and (min-width: 1151px) {
+  .size {
+    color: transparent;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .size{
+    margin: 20px;
+    color: transparent;
+  }
+}
+
 body {
     background-color: #000;
   
@@ -55,7 +79,7 @@ body {
   .ag-timeline_title-box {
     padding: 0 0 30px;
     line-height: 80px;
-    margin-top: -200px;
+    margin-top: -400px;
     text-align: center;
   }
   .ag-timeline_tagline {
