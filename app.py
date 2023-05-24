@@ -12,6 +12,10 @@ def home():
 def projects():
     return render_template("projects.html")
 
+@app.route("/renders.html")
+def renders():
+    return render_template("renders.html")
+
 @app.route("/contact.html")
 def contact():
     return render_template("contact.html")
