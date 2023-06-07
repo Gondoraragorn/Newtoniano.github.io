@@ -1,9 +1,4 @@
 /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
