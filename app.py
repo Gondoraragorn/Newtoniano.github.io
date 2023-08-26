@@ -27,6 +27,10 @@ def updates():
 @app.route("/timeline.html")
 def timeline():
     return render_template("timeline.html")
+
+@app.route("/mentored.html")
+def mentored():
+    return render_template("mentored.html")
     
 if __name__ == "__main__":
     app.run(debug=True)
