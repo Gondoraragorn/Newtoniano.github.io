@@ -4,6 +4,7 @@
 }
 .pimg{
   height: 30vh;
+  margin: 0.5vh;
   width: auto;
 }
 .row:after {
