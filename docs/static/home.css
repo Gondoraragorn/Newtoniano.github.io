@@ -11,13 +11,27 @@ a, a:hover, a:focus, a:active {
   color: inherit;
 }
 @media only screen and (min-width: 1151px) {
+  .column {
+    float: left;
+    width: 50%;
+  }
+  a{
+    font-size: 6.5vh;
+  }
   .size {
     color: transparent;
   }
 }
 @media only screen and (max-width: 1150px) {
+  .column {
+    float: left;
+    text-align: center;
+  }
+  a{
+    font-size: 5vh;
+  }
   .size{
-    margin: 20px;
+    margin: 10px;
     color: transparent;
   }
 }
